@@ -20,6 +20,16 @@ end
 #other ways to solve this
 # do a loop with array , either each or use a counter
 # after, concat string base with join loop to turn into string without commas in array
+# def print_list(array, first = 1)
+#   counter = first
+#   array.each do |item|
+#     puts "#{counter}. #{item}"
+#     counter = counter.next
+#   end
+# end
+
+
+
 def take_a_number(array, person)
   array.push(person)
   number = array.length
