@@ -19,7 +19,7 @@ def line (array)
 end
 #other ways to solve this
 # do a loop with array , either each or use a counter
-# after, jstring base with join loop to turn into string without commas in array
+# after, concat string base with join loop to turn into string without commas in array
 def take_a_number(array, person)
   array.push(person)
   number = array.length
